@@ -29,12 +29,15 @@ h1 {
     animation: pacman 10s infinite;
 }
 @keyframes pacman {
-    0% {top:30px; left: 0px;}
-    5% {top:30px; left: 280px;}
-    8% {top: 130px;}
-    35% {top: 130px; left: 500px;}
-    40% {top: 210px; left: 500px;}
-    50% {top: 210px; left: 580px;}
+    0% {top:30px; left: 0px; rotate: 0deg;}
+    2% {top:30px; left: 280px; rotate: 0deg;}
+    5% {top: 130px; rotate: 90deg;}
+    8% {rotate: 90deg; rotate: 0deg;}
+    35% {top: 130px; left: 500px; rotate: 0deg;}
+    40% {top: 210px; left: 500px; rotate: 90deg;}
+    50% {top: 210px; left: 580px; rotate: 0deg;}
+    55% {top: 280px; left: 580px; rotate: 90deg;}
+    60% {top: 280px; left: 730px; rotate: 0deg;}
 
 
 
