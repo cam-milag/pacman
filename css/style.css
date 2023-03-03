@@ -33,17 +33,22 @@ h1 {
     8% {top:35px; left: 280px; rotate: 0deg;}
     11% {top: 130px; rotate: 90deg;}
     20% {rotate: 90deg; rotate: 0deg;}
-    35% {top: 130px; left: 500px; rotate: 0deg;}
-    40% {top: 210px; left: 500px; rotate: 90deg;}
-    45% {top: 210px; left: 580px; rotate: 0deg;}
-    50% {top: 280px; left: 580px; rotate: 90deg;}
-    55% {top: 280px; left: 730px; rotate: 0deg;}
-    60% {top: 358px; left: 730px; rotate: 90deg;}
-    65% {top: 358px; left: 880px; rotate: 0deg;}
-    70% {top: 358px; left: 880px; rotate: 0deg;}
-    75% {top: 430px; left: 880px; rotate: 90deg;}
-    80% {top: 430px; left: 1030px; rotate: 90deg;}
-
+    25% {top: 130px; left: 500px; rotate: 0deg;}
+    30% {top: 210px; left: 500px; rotate: 90deg;}
+    35% {top: 210px; left: 580px; rotate: 0deg;}
+    40% {top: 280px; left: 580px; rotate: 90deg;}
+    45% {top: 280px; left: 730px; rotate: 0deg;}
+    50% {top: 358px; left: 730px; rotate: 90deg;}
+    55% {top: 358px; left: 880px; rotate: 0deg;}
+    60% {top: 358px; left: 880px; rotate: 0deg;}
+    65% {top: 430px; left: 880px; rotate: 90deg;}
+    70% {top: 430px; left: 1040px; rotate: 0deg;}
+    75% {top: 500px; left: 1040px; rotate: 90deg;}
+    80% {top: 500px; left: 1110px; rotate: 0deg;}
+    85% {top: 650px; left: 1110px; rotate: 90deg;}
+    90% {top: 650px; left: 1180px; rotate: 0deg;}
+    95% {top: 580px; left: 1180px; rotate: -90deg;}
+    100% {top: 580px; left: 1232px; rotate: 0deg;}
 
 
 
