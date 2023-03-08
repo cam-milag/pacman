@@ -60,35 +60,36 @@ h1 {
 /*ACA EMPIEZO A COLOCAR MEDIAQUERIES*/
 
 /*TAMAÑO DISPOSITIVO MOVIL*/
-@media screen and (min-width: 100px) and (max-width: 767px) {
+@media screen and (min-width: 291px) and (max-width: 613px) {
     .sizepacman {
-        width: 25px;
+        width: 15px;
     }
 
     @keyframes pacman {
-        0% {top:11px; left: 0px; rotate: 0deg;}
-        8% {top:11px; left: 94px; rotate: 0deg;}
-        11% {top: 11px; rotate: 90deg;}
-        20% {top: 46px; left: 94px; rotate: 90deg;}
-        25% {top: 46px; left: 180px; rotate: 0deg;}
-        30% {top: 46px; left: 180px; rotate: 90deg;}
-        35% {top: 76px; left: 180px; rotate: 90deg;}
-        40% {top: 76px; left: 208px; rotate: 0deg;}
-        45% {top: 102px; left: 208px; rotate: 90deg;}
-        50% {top: 102px; left: 268px; rotate: 0deg;}
-        55% {top: 132px; left: 267px; rotate: 90deg;}
-        60% {top: 132px; left: 322px; rotate: 0deg;}
-        65% {top: 160px; left: 322px; rotate: 90deg;}
-        70% {top: 160px; left: 380px; rotate: 0deg;}
-        75% {top: 190px; left: 380px; rotate: 90deg;}
-        80% {top: 190px; left: 410px; rotate: 0deg;}
-        85% {top: 245px; left: 410px; rotate: 90deg;}
-        90% {top: 245px; left: 438px; rotate: 0deg;}
-        95% {top: 218px; left: 438px; rotate: -90deg;}
-        100% {top: 218px; left: 455px; rotate: 0deg;}
+        0% {top:1px; left: 0px; rotate: 0deg;}
+        8% {top:1px; left: 52px; rotate: 0deg;}
+        11% {top: 22px; left: 52px; rotate: 90deg;}
+        20% {top: 22px; left: 102px; rotate: 00deg;}
+        25% {top: 38px; left: 102px; rotate: 90deg;}
+        30% {top: 38px; left: 118px; rotate: 0deg;}
+        35% {top: 55px; left: 118px; rotate: 90deg;}
+        40% {top: 55px; left: 152px; rotate: 0deg;}
+        45% {top: 72px; left: 152px; rotate: 90deg;}
+        50% {top: 72px; left: 185px; rotate: 0deg;}
+        55% {top: 88px; left: 185px; rotate: 90deg;}
+        60% {top: 88px; left: 218px; rotate: 0deg;}
+        65% {top: 105px; left: 218px; rotate: 90deg;}
+        70% {top: 105px; left: 235px; rotate: 0deg;}
+        75% {top: 138px; left: 235px; rotate: 90deg;}
+        85% {top: 138px; left: 252px; rotate: 0deg;}
+        90% {top: 122px; left: 252px; rotate: -90deg;}
+        100% {top: 122px; left: 260px; rotate: 0deg;}
     }
 
 }
+
+
+
 /*TAMAÑO DISPOSITIVO TABLET*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .sizepacman {
