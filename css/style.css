@@ -71,23 +71,23 @@ h1 {
 
     @keyframes pacman {
         0% {top:1px; left: 0px; rotate: 0deg;}
-        8% {top:1px; left: 52px; rotate: 0deg;}
-        11% {top: 22px; left: 52px; rotate: 90deg;}
-        20% {top: 22px; left: 108px; rotate: 00deg;}
-        25% {top: 40px; left: 108px; rotate: 90deg;}
-        30% {top: 40px; left: 125px; rotate: 0deg;}
-        35% {top: 58px; left: 125px; rotate: 90deg;}
-        40% {top: 58px; left: 158px; rotate: 0deg;}
-        45% {top: 75px; left: 158px; rotate: 90deg;}
-        50% {top: 75px; left: 195px; rotate: 0deg;}
-        55% {top: 92px; left: 195px; rotate: 90deg;}
-        60% {top: 92px; left: 228px; rotate: 0deg;}
-        65% {top: 110px; left: 228px; rotate: 90deg;}
-        70% {top: 110px; left: 245px; rotate: 0deg;}
-        75% {top: 145px; left: 245px; rotate: 90deg;}
-        85% {top: 145px; left: 265px; rotate: 0deg;}
-        90% {top: 127px; left: 265px; rotate: -90deg;}
-        100% {top: 127px; left: 275px; rotate: 0deg;}
+        8% {top:1px; left: 65px; rotate: 0deg;}
+        11% {top: 30px; left: 65px; rotate: 90deg;}
+        20% {top: 30px; left: 130px; rotate: 00deg;}
+        25% {top: 50px; left: 130px; rotate: 90deg;}
+        30% {top: 50px; left: 150px; rotate: 0deg;}
+        35% {top: 70px; left: 150px; rotate: 90deg;}
+        40% {top: 70px; left: 190px; rotate: 0deg;}
+        45% {top: 90px; left: 190px; rotate: 90deg;}
+        50% {top: 90px; left: 230px; rotate: 0deg;}
+        55% {top: 112px; left: 230px; rotate: 90deg;}
+        60% {top: 112px; left: 272px; rotate: 0deg;}
+        65% {top: 132px; left: 272px; rotate: 90deg;}
+        70% {top: 132px; left: 292px; rotate: 0deg;}
+        75% {top: 172px; left: 292px; rotate: 90deg;}
+        85% {top: 172px; left: 315px; rotate: 0deg;}
+        90% {top: 152px; left: 315px; rotate: -90deg;}
+        100% {top: 152px; left: 328px; rotate: 0deg;}
 
     }
 
