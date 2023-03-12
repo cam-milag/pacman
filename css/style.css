@@ -60,7 +60,11 @@ h1 {
 /*ACA EMPIEZO A COLOCAR MEDIAQUERIES*/
 
 /*TAMAÑO DISPOSITIVO MOVIL*/
-@media screen and (min-width: 291px) and (max-width: 613px) {
+@media screen and (min-width: 320px) and (max-width: 457px) {
+
+    body {
+    background-color: #d12020;
+    }
     .sizepacman {
         width: 15px;
     }
@@ -69,29 +73,68 @@ h1 {
         0% {top:1px; left: 0px; rotate: 0deg;}
         8% {top:1px; left: 52px; rotate: 0deg;}
         11% {top: 22px; left: 52px; rotate: 90deg;}
-        20% {top: 22px; left: 102px; rotate: 00deg;}
-        25% {top: 38px; left: 102px; rotate: 90deg;}
-        30% {top: 38px; left: 118px; rotate: 0deg;}
-        35% {top: 55px; left: 118px; rotate: 90deg;}
-        40% {top: 55px; left: 152px; rotate: 0deg;}
-        45% {top: 72px; left: 152px; rotate: 90deg;}
-        50% {top: 72px; left: 185px; rotate: 0deg;}
-        55% {top: 88px; left: 185px; rotate: 90deg;}
-        60% {top: 88px; left: 218px; rotate: 0deg;}
-        65% {top: 105px; left: 218px; rotate: 90deg;}
-        70% {top: 105px; left: 235px; rotate: 0deg;}
-        75% {top: 138px; left: 235px; rotate: 90deg;}
-        85% {top: 138px; left: 252px; rotate: 0deg;}
-        90% {top: 122px; left: 252px; rotate: -90deg;}
-        100% {top: 122px; left: 260px; rotate: 0deg;}
+        20% {top: 22px; left: 108px; rotate: 00deg;}
+        25% {top: 40px; left: 108px; rotate: 90deg;}
+        30% {top: 40px; left: 125px; rotate: 0deg;}
+        35% {top: 58px; left: 125px; rotate: 90deg;}
+        40% {top: 58px; left: 158px; rotate: 0deg;}
+        45% {top: 75px; left: 158px; rotate: 90deg;}
+        50% {top: 75px; left: 195px; rotate: 0deg;}
+        55% {top: 92px; left: 195px; rotate: 90deg;}
+        60% {top: 92px; left: 228px; rotate: 0deg;}
+        65% {top: 110px; left: 228px; rotate: 90deg;}
+        70% {top: 110px; left: 245px; rotate: 0deg;}
+        75% {top: 145px; left: 245px; rotate: 90deg;}
+        85% {top: 145px; left: 265px; rotate: 0deg;}
+        90% {top: 127px; left: 265px; rotate: -90deg;}
+        100% {top: 127px; left: 275px; rotate: 0deg;}
+
+    }
+
+}
+
+@media screen and (min-width: 458px) and (max-width: 789px) {
+
+    body {
+    background-color: #20cbd1;
+    }
+    .sizepacman {
+        width: 20px;
+    }
+
+    @keyframes pacman {
+        0% {top:3px; left: 0px; rotate: 0deg;}
+        8% {top:3px; left: 85px; rotate: 0deg;}
+        11% {top: 38px; left: 85px; rotate: 90deg;}
+        20% {top: 38px; left: 162px; rotate: 0deg;} 
+        25% {top: 62px; left: 162px; rotate: 90deg;}
+        30% {top: 62px; left: 186px; rotate: 0deg;}
+        35% {top: 90px; left: 186px; rotate: 90deg;}
+        40% {top: 90px; left: 238px; rotate: 0deg;}
+        45% {top: 115px; left: 238px; rotate: 90deg;}
+        50% {top: 115px; left: 288px; rotate: 0deg;}
+        55% {top: 140px; left: 288px; rotate: 90deg;}
+        60% {top: 140px; left: 338px; rotate: 0deg;}
+        65% {top: 168px; left: 338px; rotate: 90deg;}
+        70% {top: 168px; left: 363px; rotate: 0deg;}
+        75% {top: 218px; left: 363px; rotate: 90deg;}
+        85% {top: 218px; left: 390px; rotate: 0deg;}
+        90% {top: 190px; left: 390px; rotate: -90deg;}
+        100% {top: 190px; left: 408px; rotate: 0deg;}
     }
 
 }
 
 
 
+
+
 /*TAMAÑO DISPOSITIVO TABLET*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-color: #FFB8FF;
+        }
+
     .sizepacman {
         width: 35px;
     }
