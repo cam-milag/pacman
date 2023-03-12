@@ -18,6 +18,9 @@ h1 {
     font-family: pacman;
     font-size: 5rem;
 }
+h2 {
+    font-family: pacman;
+}
 .fondo {
     background-image: url(../assets/background-pacmanVacio.png);
     background-repeat: no-repeat;
